@@ -1,0 +1,80 @@
+body{
+    margin:0;
+}
+.font-ex{
+    border: 1px solid grey;
+
+    /* font-family: Sofia, cursive; */
+
+    /* 1em = browser default size ,16px */
+
+
+    font-size: 1em;
+
+    font-style: normal;
+
+    font-variant: small-caps;
+    color: blue;
+
+}
+
+.face_icon{
+    color: blue;
+    background-color: red;
+}
+
+.git>a:link{
+    color : blue;
+}
+.git>a:active{
+    color : black;
+}
+
+.git>a:hover{
+    color : green;
+}
+
+.git>a:visited{
+
+    color : red;
+}
+
+
+.ul_list{
+     /* list-style-type: square; */
+    /* list-style-image:url(https://www.tutorialspoint.com/green/images/diamond.png); */
+
+    /* list-style-position: inside;  */
+    list-style: circle inside;
+}
+
+.demo_table{
+    border : 1px solid red;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th{
+   border : 1px solid red; 
+   text-align: center;
+   height: 30px;
+   vertical-align: bottom;
+}
+
+tr:nth-child(4){
+    background-color: grey;
+}
+
+
+.box{
+    /* display: none; */
+    /* visibility: hidden; */
+    border : 1px solid rgb(207, 207, 207);
+    box-shadow: 2px 5px 5px rgb(216, 216, 216);
+    position: fixed;
+    background-color: yellow;
+    bottom: 500px;
+    height: 50px;
+    z-index: 100;
+    overflow: auto;
+}

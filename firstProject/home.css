@@ -1,0 +1,141 @@
+body{
+    margin : 0;
+    background-image: url('img/landing.png');
+    background-repeat: no-repeat;
+    background-size: 40vw;
+    background-position-x: 55vw;
+    background-position-y: 18vh;
+
+}
+
+.navbar{
+    border-bottom: 1px solid rgb(216, 216, 216);
+    height: 70px;
+    position: fixed;
+    background-color: blue;
+    top : 0;
+    width: 100%;
+}
+
+.navbar>img{
+    height: 60px;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+.navbar>img:hover{
+    cursor: pointer;
+}
+
+
+.app_name{
+    position: relative;
+    bottom: 25px;
+    font-size: 25px;
+    font-family: cursive;
+    padding-left: 10px;
+    color: rgb(120, 160, 60);
+}
+
+.nav_button{
+    float: right;
+    padding-top: 22px;
+}
+
+.nav_button > button{ 
+    margin-right: 20px;
+    font-size: 22px;
+    background-color: white;
+    border: none;
+    color: rgb(146, 190, 79);
+}
+
+.nav_button > button:hover{
+    cursor:pointer;
+}
+
+/* 
+.navbar{
+    border-bottom: 1px solid rgb(216, 216, 216);
+    height: 10vh;
+    position: fixed;
+    background-color: white;
+    top : 0;
+    width: 100%;
+}
+
+.navbar>img{
+    height: 50px;
+    padding-top: 5px;
+    margin-left: 20px;
+}
+
+.navbar>img:hover{
+    cursor: pointer;
+}
+
+
+.app_name{
+    position: relative;
+    bottom: 12px;
+    font-size: 30px;
+    padding-left: 10px;
+    color: rgb(120, 160, 60);
+    margin-bottom: 10px;
+}
+
+.nav_button{
+    float: right;
+    padding-top: 15px;
+}
+
+.nav_button > button{ 
+    margin-right: 20px;
+    font-size: 22px;
+    background-color: white;
+    border: none;
+    color: rgb(146, 190, 79);
+}
+
+.nav_button > button:hover{
+    cursor:pointer;
+} */
+
+.heading{
+    font-size: 45px;
+}
+
+.expl{
+    font-size: 25px;
+    color: rgb(64, 131, 43);
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.landing{
+    margin-top : 20vh;
+    margin-left : 7vw;
+}
+
+.form_sec>input{
+    width: 30%;
+    height: 30px;
+    border: 2px solid rgb(202, 197, 197);
+    border-radius: 10px;
+    padding:5px;
+    margin-right: 10px;
+}
+
+.form_sec>button{
+    width: 10%;
+    height: 42px;
+    border: 2px solid rgb(80, 165, 84);
+    border-radius: 10px;
+    padding:10px;
+    background-color: rgb(116, 206, 91);
+    color: white;
+}
+
+.form_sec>input:focus{
+    outline: 1px solid rgb(178, 204, 178);
+}

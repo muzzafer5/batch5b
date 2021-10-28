@@ -1,0 +1,91 @@
+
+body{
+
+    margin : 0;
+      /* background-image: url(https://www.tutorialspoint.com/green/images/diamond.png); */
+      /* background-repeat: no-repeat; */
+      /* background-repeat :  no-repeat;
+      background-position: top right;
+      background: blue url(https://www.tutorialspoint.com/green/images/diamond.png) no-repeat top right; */
+}
+/* 
+.box1, .box2{
+
+    border : 1px solid grey;
+    background-color: green;
+    border : 1px solid grey;
+    background-color: green;
+    font-size: 2vw;
+    width:20vw;
+    height: 10vh;
+    overflow: auto;
+} */
+
+
+.box1{
+    border: 1px solid grey;
+  
+    background-color: green;
+    /* position: fixed;
+    top : 0; */
+}
+
+.box2{
+    border: 1px solid grey;
+    height: 200px;
+
+    
+    background-color: blue;
+}
+
+
+.box3{
+    border: 1px solid grey;
+    background-color: red;
+    position: sticky;
+    top:0;
+}
+
+.tmp{
+    margin: 200px;
+}
+
+
+/* 
+
+border
+margin
+padding
+box model
+outline
+background
+Text
+overflow
+opacity
+
+*/
+
+
+/* 
+
+Fonts
+Icons
+Links
+Lists
+Table
+display/visibility/shadow
+position/float/z-index
+*/
+
+/* 
+
+specificity
+important
+math
+units
+pseudo-class
+pseudo-elements
+combinators
+selector
+marquee/b/strong/i/em
+*/

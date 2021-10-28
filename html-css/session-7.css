@@ -1,0 +1,63 @@
+
+/* 
+background
+tranforms
+transitions
+animation
+variables
+*/
+
+
+:root{
+
+    --bg_color : blue; 
+    --height : 200px;
+}
+
+body{
+    /* background-image: url(img/landing.png), url(img/main.png);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 20vw, 50vw;
+    background-position: 100px 20px, 200px 300px;
+    background-attachment: scroll; */
+
+    /* background-image: linear-gradient(to right, red, green, yellow); */
+    /* background-image: radial-gradient(red 10%, green 20%, blue 70%); */
+    /* background-image: conic-gradient(red 20%, blue 30%, green 50%);
+    height: 100vh; */
+    /* background-color : var(--bg_color); */
+}
+
+.box1{
+    --bg_clr : red;
+    background-color:var(--bg_clr);
+    width: 100px;
+    margin-top: 200px;
+    margin-left: 200px;
+    height: 100px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.box2{
+    background-color:var(--bg_color);
+    width: 100px;
+    margin-top: 200px;
+    margin-left: 200px;
+    height: 100px;
+    /* animation-name: animation1;
+    animation-duration: 4s; */
+    /* animation-iteration-count: infinite; */
+    /* animation-direction: reverse; */
+    /* animation-fill-mode: backwards;
+    position: relative;
+    height: var(--height/10); */
+}
+
+@keyframes animation1 {
+    0% {background-color:black; left: 0; top: 0;}
+    25% {background-color : yellow; left: 300px; top: 0; transform: rotate(90deg);}
+    50% {background-color : green; left: 300px; top: 300px; transform: scale(2,2);}
+    75% {background-color : blue; left: 0; top: 300px;transform: rotate(360deg)}
+    100% {background-color : grey; left: 0; top: 0;}
+}

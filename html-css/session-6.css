@@ -1,0 +1,49 @@
+
+.body{
+    margin: 0;
+}
+
+/*  {
+universal selector - *
+} */
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+}   
+
+.box{
+
+    border: 1px solid black;
+    width: 200px;
+}
+
+.box1{
+    background-color: red;
+     flex-grow: 0;
+}
+
+.box2{
+    background-color: green;
+ flex-grow: 2;
+}
+
+.box3{
+    background-color: blue;
+}
+
+
+/* 
+
+specificity
+important
+math
+
+pseudo-class
+pseudo-elements
+combinators
+selector
+*/

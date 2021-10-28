@@ -1,0 +1,28 @@
+
+
+/* child selector */
+
+.box1>article{
+    border:1px solid red;
+}
+
+/* descendent selector */
+
+.box1 article{
+    border:1px solid red;
+}
+
+
+/* adjacent */
+
+.box1+article{
+    border: 1px solid blue;
+}
+
+
+/* sibblings */
+
+.box1~article{
+    border: 1px solid blue;
+}
+

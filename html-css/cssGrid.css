@@ -1,0 +1,36 @@
+.grid_class{
+    background-color: rgb(86, 117, 129);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, minmax(100px, auto)) ;
+    grid-auto-rows: 300px;
+    grid-gap: 5px;
+    border: 5px solid rgb(29, 42, 48);
+    /* align-content: space-between; */
+  
+}
+
+.grid_class > div{
+    background-color: skyblue;
+    text-align: center;
+
+}
+
+
+
+/* .grid_class>div:nth-child(odd){
+    background-color: red;
+} */
+
+
+.flex_class{
+    margin-top: 100px;
+    display: flex;
+    align-items:center;
+    background-color: rgb(86, 117, 129);
+}
+.flex_class > div{
+    background-color: skyblue;
+    margin: 10px;
+    width: 30%;
+}

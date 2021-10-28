@@ -1,0 +1,130 @@
+body{
+    margin : 0;
+    background-color: rgb(250, 249, 249);
+}
+
+
+.navbar{
+    border-bottom: 1px solid rgb(216, 216, 216);
+    height: 70px;
+    position: fixed;
+    background-color: white;
+    top : 0;
+    width: 100%;
+}
+
+.navbar>img{
+    height: 60px;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+.navbar>img:hover{
+    cursor: pointer;
+}
+
+
+.app_name{
+    position: relative;
+    bottom: 25px;
+    font-size: 25px;
+    font-family: cursive;
+    padding-left: 10px;
+    color: rgb(120, 160, 60);
+}
+
+.nav_button{
+    float: right;
+    padding-top: 22px;
+}
+
+.nav_button > button{ 
+    margin-right: 20px;
+    font-size: 22px;
+    background-color: white;
+    border: none;
+    color: rgb(146, 190, 79);
+}
+
+.nav_button > button:hover{
+    cursor:pointer;
+}
+
+.content{
+    margin-top: 70px;
+    height: calc(100vh - 70px);
+    overflow: auto;
+}
+
+.row{
+    margin-left : 10vw;
+    margin-top: 1vw;
+    width: 49vw;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 10px;
+    background-color: white;
+    height: 35vh;
+}
+
+.row:hover{
+    box-shadow: 1px 5px 6px rgb(231, 230, 230);
+}
+
+.row:hover>.detail{
+    display: block;
+}
+
+.row>img{
+    height: 11vw;
+    width: 11vw;
+    margin-left: 1vw;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.info{
+    float: right;
+    width: 35vw;
+    height: 30vh;
+    margin: 20px 1vw 20px 1vw;
+    overflow-y: hidden;
+}
+
+.detail{
+    position: fixed;
+    top:80px;
+    right: 10vw;
+    border: 1px solid rgb(204, 197, 197);
+    border-radius: 10px;
+    width: 30vw;
+    height: calc(100vh - 90px);
+    display: none;
+    text-align: center;
+}
+
+.yframe{
+    margin-top : 10px;
+    width: 25vw;
+    height: 20vw;
+    border-radius: 5px;
+    border: 3px solid rgb(143, 228, 143);
+}
+
+.slot{
+    border : 1px solid rgb(204, 197, 197);
+    width: 25vw;
+    margin:auto;
+}
+
+.slot td{
+    background-color: rgb(137, 218, 137);
+    width: 2.2vw;
+    height: 3vw;
+}
+.slot th{
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(97, 97, 97);
+    background-color: rgb(236, 236, 236);
+    height: 3vw;
+}

@@ -1,0 +1,122 @@
+
+
+
+
+
+input{
+    border: 1px solid red;
+}
+
+
+input[type = "text"]{
+    border: 1px solid blue;
+}
+
+/* a{
+    color: red;
+}
+
+a[href^= "#"]{
+    color: green;
+}
+ */
+
+/* all the class having substing top */
+/* [class*= top]{
+    background-color: green;
+} */
+
+/* class start with word top */
+/* [class|= top]{
+    background-color: green;
+}
+ */
+
+/* class with prefix top */
+/* [class^= top]{
+    background-color: green;
+} */
+
+/* all classes end with top */
+/* [class$= top]{
+    background-color: green;
+} */
+
+/* [class~= top]{
+    background-color: green;
+} */
+
+
+
+
+/* 
+
+screen -> laptop, tablet and phone
+print -> printer
+speech ->
+
+*/
+
+
+
+
+
+
+
+/* 
+    attribute selector ( |^$~*)
+    media query ()
+    after before
+*/
+
+
+
+/* body{
+    background-color: red;
+} */
+
+/* @media screen and (max-width : 800px){
+    body{
+        background-color: green;
+    }
+}
+
+@media screen and (max-width : 500px) {
+        body{
+        background-color: grey;
+    }
+} */
+
+
+/* @media screen and (min-width : 900px) {
+    ul{
+        float: left;
+    }
+    .content{
+        margin-left: 400px;
+        padding-top : 20px;
+    }
+} */
+/* ul{
+    width: 300px;
+}
+li{
+    padding: 20px;
+    background-color: rgb(170, 170, 226);
+    border: 1px solid grey;
+} */
+
+.box1{
+    border: 1px solid green;
+    float: left;
+    height: 200px;
+    background-color: red;
+
+}
+
+.content {
+    border: 1px solid red;
+    height: 100px;
+    background-color: green;
+
+}
