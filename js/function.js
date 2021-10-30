@@ -105,3 +105,21 @@ function task(f1, f2){
    }
    f1();
 }
+
+
+// x = 10;
+function Mutiply(num){
+    this.a = function ret(){
+        console.log("hi");
+    }
+}
+
+let mul = ()=>{
+    console.log("hi");
+}
+// console.log(mutiply(2));
+let mutipleBy2 = new mul();
+
+let tmp = mutipleBy2.a();
+
+console.log(tmp);
